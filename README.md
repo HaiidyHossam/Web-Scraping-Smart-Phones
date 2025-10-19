@@ -27,10 +27,7 @@ and saves the results to CSV files, then merges them into one dataset.
 
 ## How to Run
 1. Install dependencies:
-   ```bash
    pip install selenium pandas
-````
-
 2. Open the Jupyter notebook file.
 3. Run all cells **sequentially from top to bottom**.
    The script will:
@@ -40,20 +37,15 @@ and saves the results to CSV files, then merges them into one dataset.
    * Save both results to CSV
    * Merge them into one final CSV file:
 
-     ```
-     assessment_merged_mobilemasr_dubizzle.csv
-     ```
 
----
+     assessment_merged_mobilemasr_dubizzle.csv
+    
+
+
 
 ## Notes
 
 * The script handles pagination automatically.
 * Basic error handling is included to skip broken listings.
-
----
-
-**Author:** Haidy Hossam
-**Project:** Web Scraping Assessment (MobileMasr & Dubizzle)
 
 
